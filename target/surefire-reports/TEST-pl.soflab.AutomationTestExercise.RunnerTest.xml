@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="2" name="pl.soflab.AutomationTestExercise.RunnerTest" time="0.044" errors="4" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Tomasz/Desktop/AutomationTestExercise"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Tomasz/Desktop/AutomationTestExercise"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/q3/_jhztgtj71775f4dxl_rw9w80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Tomasz/eclipse-workspace-new-version2/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6384255806714407539.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Tomasz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Tomasz"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Tomasz"/>
+    <property name="java.class.path" value="/Users/Tomasz/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pl"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="/Users/Tomasz/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Tomasz/Desktop/AutomationTestExercise/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Check Item Price" name="Given I am on the main page" time="0.003"/>
+  <testcase classname="Scenario: Check Item Price" name="When I pick blouse category and pick the item" time="0.001"/>
+  <testcase classname="Scenario: Check Item Price" name="And I choose quantity and size of the item" time="0"/>
+  <testcase classname="Scenario: Check Item Price" name="And I add the item to cart" time="0"/>
+  <testcase classname="Scenario: Check Item Price" name="Then I check if Total price with shipping is correct" time="0.013">
+    <failure message="Sum of the product price + shipping is not correct." type="java.lang.AssertionError">java.lang.AssertionError: Sum of the product price + shipping is not correct.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pl.soflab.PageObjects.ProductPage.checkIfTheTotalPriceIsCorrect(ProductPage.java:20)
+	at stepDefinition.Steps.shouldCheckIfTheTotalPriceIsCorrect(Steps.java:143)
+	at ✽.Then I check if Total price with shipping is correct(checkItemPriceFeature.feature:10)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Check Item Price" name="Scenario: Check Item Price" time="0.014">
+    <failure message="Sum of the product price + shipping is not correct." type="java.lang.AssertionError">java.lang.AssertionError: Sum of the product price + shipping is not correct.
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at pl.soflab.PageObjects.ProductPage.checkIfTheTotalPriceIsCorrect(ProductPage.java:20)
+	at stepDefinition.Steps.shouldCheckIfTheTotalPriceIsCorrect(Steps.java:143)
+	at ✽.Then I check if Total price with shipping is correct(checkItemPriceFeature.feature:10)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Log in scenario" name="Given I am on the main page" time="0"/>
+  <testcase classname="Scenario: Log in scenario" name="And I click on the log in button" time="0"/>
+  <testcase classname="Scenario: Log in scenario" name="When I put email and password" time="0"/>
+  <testcase classname="Scenario: Log in scenario" name="And I click signIn button" time="0.003">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;center_column&apos;]/div[1]/ol/li&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:185f:b45f:88c1:60da%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/q3/_jhztgtj717...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0bb69879e3463c73aa5cead169135562
+*** Element info: {Using=xpath, value=//*[@id=&apos;center_column&apos;]/div[1]/ol/li}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;center_column&apos;]/div[1]/ol/li&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:185f:b45f:88c1:60da%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/q3/_jhztgtj717...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0bb69879e3463c73aa5cead169135562
+*** Element info: {Using=xpath, value=//*[@id=&apos;center_column&apos;]/div[1]/ol/li}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pl.soflab.PageObjects.LogInPage.clickSignInButton(LogInPage.java:61)
+	at stepDefinition.Steps.shouldClickSignInButton(Steps.java:110)
+	at ✽.And I click signIn button(logInFeature.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Log in scenario" name="Scenario: Log in scenario" time="0.005">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;center_column&apos;]/div[1]/ol/li&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:185f:b45f:88c1:60da%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/q3/_jhztgtj717...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0bb69879e3463c73aa5cead169135562
+*** Element info: {Using=xpath, value=//*[@id=&apos;center_column&apos;]/div[1]/ol/li}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;center_column&apos;]/div[1]/ol/li&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.14.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:185f:b45f:88c1:60da%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/q3/_jhztgtj717...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0bb69879e3463c73aa5cead169135562
+*** Element info: {Using=xpath, value=//*[@id=&apos;center_column&apos;]/div[1]/ol/li}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pl.soflab.PageObjects.LogInPage.clickSignInButton(LogInPage.java:61)
+	at stepDefinition.Steps.shouldClickSignInButton(Steps.java:110)
+	at ✽.And I click signIn button(logInFeature.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Log in scenario" name="Then I should be on my account page" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sign in scenario" name="Given I am on the main page" time="0"/>
+  <testcase classname="Scenario: Sign in scenario" name="And I click on the log in button" time="0"/>
+  <testcase classname="Scenario: Sign in scenario" name="When I fill email address" time="0"/>
+  <testcase classname="Scenario: Sign in scenario" name="And I click create an account button" time="0"/>
+  <testcase classname="Scenario: Sign in scenario" name="And I submit the form with valid data" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pl.soflab.PageObjects.CreateAnAccountPage.fillInCreateAccountForm(CreateAnAccountPage.java:59)
+	at stepDefinition.Steps.shouldSubmitTheFormWithValidData(Steps.java:85)
+	at ✽.And I submit the form with valid data(signInFeature.feature:12)
+</error>
+    <system-err>[1552512766.716][SEVERE]: Unable to receive message from renderer
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Sign in scenario" name="Scenario: Sign in scenario" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at pl.soflab.PageObjects.CreateAnAccountPage.fillInCreateAccountForm(CreateAnAccountPage.java:59)
+	at stepDefinition.Steps.shouldSubmitTheFormWithValidData(Steps.java:85)
+	at ✽.And I submit the form with valid data(signInFeature.feature:12)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Sign in scenario" name="And I set alias" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sign in scenario" name="And I submit new account" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Sign in scenario" name="Then I should be on my account page" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
